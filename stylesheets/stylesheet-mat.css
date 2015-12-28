@@ -1,19 +1,19 @@
 
 /*Definimos el formato del cuerpo de la página*/
 body {
-  margin: 1px;
-  padding: 1px;
-  background: url("../images/drwho1.png") 0 0;
+  margin: 10px;
+  padding: 10px;
+  background: url("../images/fondo-mat.png") 0 0; 
   color: #eaeaea; /*Color de la fuente*/
-  font: 18px;
+  font-size: 18px;
   line-height: 1.2;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 /*Hacemos que el contenido de la cabecera se comprima con max-width */
 .container {
-  width: 100%;
-  max-width: 1000px;
+  width: 90%;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -25,12 +25,17 @@ section {
 
 /*Agregamos una línea separadora para la cabecera del resto del cuerpo*/
 header {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.6);
   width: 100%;
   /*border-top: 2px dashed #b5e853; /*borde superior*/
   border-bottom: 2px dashed #b5e853; /*borde inferior*/
   padding: 20px 0;
   margin: 0 0 40px 0;
+}
+
+header h1:before {
+  content: "Matemáticas";
+  font-size: 38px;
 }
 
 
@@ -39,7 +44,7 @@ h1 {
   font-weight: bold;
   font-size: 28;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #0001ff;
+  color: #9e9e9e;
   letter-spacing: 0.1em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -60,10 +65,10 @@ h2, h3, h4, h5, h6 {
 table {
 
    width: 100%;
-   
+   background-image:url("../images/fondotabla.png")
 }
 
-td:hover{background-color:#060606} /* Hacemos que el color cambie al pasar el cursor sobre la celda*/
+td:hover{background-color:#050505} /* Hacemos que el color cambie al pasar el cursor sobre la celda*/
 
 
 /* Definimos los botones
@@ -71,8 +76,8 @@ td:hover{background-color:#060606} /* Hacemos que el color cambie al pasar el cu
 
 .btn {
   display: inline-block;
-  /*background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));*/
-  background-color:#4caf50
+  /*background: -webkit-linear-gradient(top, rgba(20, 10, 240, 0.5), rgba(20, 10, 240, 0.5) 50%, rgba(20, 10, 240, 0.3) 50%, rgba(20, 10, 240, 0.5));*/
+  background-color:#008cba;
   padding: 8px 18px;
   border-radius: 50px;
   border: 2px solid rgba(0, 0, 0, 0.7);
