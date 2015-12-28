@@ -32,9 +32,12 @@
 <!-- Creamos una nueva división -->
   <div class="container">
     <section id="main_content">
-      <h3> Ejercicios para 3º ESO</h3>
-      
-	<iframe width="400" height="700" src="https://docs.google.com/spreadsheets/d/1yt3-1O8nT-WHL8R1z1QiP12hxKPGHO6JvAXZzLJANMQ/edit?usp=sharing" frameborder="1" allowfullscreen></iframe>
+      <h3> Ejercicios para 4º ESO</h3>
+      <ul>
+	<li><a href="ejercicios4eso.html">Ejercicios</a></li>
+	<br>
+	<li><a href="documentos4eso.html">Documentos</a></li>
+      </ul>
 
 
   </div>

@@ -63,6 +63,12 @@ h2, h3, h4, h5, h6 {
                0 0 10px rgba(181, 232, 83, 0.1);
 }
 
+p {
+
+	font-family: "Verdana", Arial, sans-serif;
+
+}
+
 table {
 
    width: 100%;
@@ -78,7 +84,7 @@ td:hover{background-color:#050505} /* Hacemos que el color cambie al pasar el cu
 .btn {
   display: inline-block;
   /*background: -webkit-linear-gradient(top, rgba(20, 10, 240, 0.5), rgba(20, 10, 240, 0.5) 50%, rgba(20, 10, 240, 0.3) 50%, rgba(20, 10, 240, 0.5));*/
-  background-color:#4caf50;
+  background-color:#008cba;
   padding: 8px 18px;
   border-radius: 50px;
   border: 2px solid rgba(0, 0, 0, 0.7);

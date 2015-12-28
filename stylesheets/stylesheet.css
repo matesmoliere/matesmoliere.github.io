@@ -102,7 +102,7 @@ td:hover{background-color:#060606} /* Hacemos que el color cambie al pasar el cu
 /* Le decimos donde está el icono*/
 .btn-wolfram .icon {
   opacity: 0.8;
-  background: url("../images/alpamayo-sw-rutas.png") 0 0 no-repeat;
+  background: url("../images/wolfram.png") 0 0 no-repeat;
   url("http://wolframalpha.com");
 }
 

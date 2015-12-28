@@ -76,7 +76,8 @@ td:hover{background-color:#050505} /* Hacemos que el color cambie al pasar el cu
 
 .btn {
   display: inline-block;
-  background: -webkit-linear-gradient(top, rgba(20, 10, 240, 0.5), rgba(20, 10, 240, 0.5) 50%, rgba(20, 10, 240, 0.3) 50%, rgba(20, 10, 240, 0.5));
+  /*background: -webkit-linear-gradient(top, rgba(20, 10, 240, 0.5), rgba(20, 10, 240, 0.5) 50%, rgba(20, 10, 240, 0.3) 50%, rgba(20, 10, 240, 0.5));*/
+  background-color:#008cba;
   padding: 8px 18px;
   border-radius: 50px;
   border: 2px solid rgba(0, 0, 0, 0.7);
@@ -105,9 +106,8 @@ td:hover{background-color:#050505} /* Hacemos que el color cambie al pasar el cu
 
 /* Le decimos donde está el icono*/
 .btn-wolfram .icon {
-  opacity: 0.8;
-  background: url("../images/alpamayo-sw-rutas.png") 0 0 no-repeat;
-  url("http://wolframalpha.com");
+    opacity: 0.8;
+    background: url("../images/wofram.jpg") 0 0 no-repeat;
 }
 
 /* Links

@@ -63,6 +63,12 @@ h2, h3, h4, h5, h6 {
                0 0 10px rgba(181, 232, 83, 0.1);
 }
 
+p {
+
+   font-family: "Verdana", Verdana, sans-serif;
+
+}
+
 table {
 
    width: 100%;
