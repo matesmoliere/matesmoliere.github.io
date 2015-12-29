@@ -21,8 +21,8 @@
       <section id="downloads">
         <a href="../../index.html" class="btn">Inicio</a>
 	<a href="enlacesinformatica.html" class="btn">Enlaces</a>
+	<a href="ejerciciosinformatica.html" class="btn">Ejercicios</a>
 	<a href="videosinformatica.html" class="btn">Vídeos</a>
-	<a href="documentosinformatica.html" class="btn">Documentos</a>
 	<a href="python.html" class="btn">Python</a>
 	<a href="humorinformatica.html" class="btn">Humor</a>
       </section>
@@ -32,9 +32,20 @@
 <!-- Creamos una nueva división -->
   <div class="container">
     <section id="main_content">
-      <h3> Ejercicios para Informática</h3>
-      
-    <iframe width="400" height="300" src="https://docs.google.com/spreadsheets/d/1a1bpK_2Q7JNVzpHwsmn1REyJW622cUsXeivj7x_aP4U/edit?usp=sharing" frameborder="1" allowfullscreen></iframe>
+      <h3> Documentos para Informática</h3>
+      <ul>
+	<li><a href="https://create.lensoo.com/watch/bsSb" target="_blank">Conversión de número digital a número binario (vídeo)</a></li>
+        <br>
+        <li><a href="https://www.dropbox.com/s/u02njtghak3oqy7/Formula_HowTo_1_0.pdf?dl=0" target="_blank">Fórmulas en Open/LibreOffice</a></li>
+        <br>
+        <li><a href="https://www.dropbox.com/s/am5exlbqwjvxx7t/Curso_GNU_Linux_desde_0_Entregas_0_20.pdf?dl=0" target="_blank">Linux desde Cero</a></li>
+        <br>
+        <li><a href="http://www.reypastor.org/departamentos/dinf/enalam/hardware/elpc/elpc/index.html" target="_blank">Partes de un ordenador</a></li>
+	<br>
+	<li><a href="http://serbal.pntic.mec.es/irec0010/index.html" target="_blank">Conceptos básicos de Hardware</a></li>
+      <br>
+      </ul>
+
 
   </div>
 
