@@ -3,7 +3,7 @@
 body {
   margin: 10px;
   padding: 10px;
-  background: url("../images/fondo-mat.png") 0 0; 
+  background: rgba(0, 0, 0, 0.9); 
   color: #eaeaea; /*Color de la fuente*/
   font-size: 18px;
   line-height: 1.2;
@@ -25,7 +25,7 @@ section {
 
 /*Agregamos una línea separadora para la cabecera del resto del cuerpo*/
 header {
-  background: rgba(0, 0, 0, 0.6);
+  background: url("../images/fondo-mat.png") 0 0;
   width: 100%;
   /*border-top: 2px dashed #b5e853; /*borde superior*/
   border-bottom: 2px dashed #b5e853; /*borde inferior*/
@@ -86,7 +86,7 @@ td:hover{background-color:#050505} /* Hacemos que el color cambie al pasar el cu
   color: rgba(255, 255, 255, 0.9);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 15px;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -108,6 +108,24 @@ td:hover{background-color:#050505} /* Hacemos que el color cambie al pasar el cu
 .btn-wolfram .icon {
     opacity: 0.8;
     background: url("../images/wolfram.jpg") 0 0 no-repeat;
+}
+
+.btn-enlaces {
+  display: inline-block;
+  background: -webkit-linear-gradient(top, rgba(20, 10, 240, 0.5), rgba(20, 10, 240, 0.5) 50%, rgba(20, 10, 240, 0.3) 50%, rgba(20, 10, 240, 0.5));
+  background-color:#008cba;
+  padding: 8px 18px;
+  border-radius: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  border-top: 2px solid rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 /* Links

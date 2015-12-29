@@ -44,9 +44,9 @@
 <td>
       <h3> Informática</h3>
       <ul>
-	<li><a href="html/info/videosinformatica.html">Vídeos</a></li>
-	<br>
 	<li><a href="html/info/enlacesinformatica.html">Enlaces de interés</a></li>
+	<br>
+	<li><a href="html/info/videosinformatica.html">Vídeos</a></li>
 	<br>
 	<li><a href="html/info/ejerciciosinformatica.html">Ejercicios</a></li>
 	<br>

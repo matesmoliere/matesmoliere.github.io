@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet-mat.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/stylesheet-mat.css" media="screen">
     
     <title>Matemáticas &amp; Informática</title>
   </head>
@@ -19,10 +19,11 @@
         
 
       <section id="downloads">
-        <a href="../index.html" class="btn"></span>Inicio</a>
-	<a href="mates3eso.html" class="btn"></span>3º ESO</a>
-	<a href="enlacesmatematicas.html" class="btn"></span>Enlaces</a>
-	<a href="humormates.html" class="btn"></span>Humor</a>
+        <a href="../index.html" class="btn">Inicio</a>
+	<a href="mates4eso.html" class="btn">4º ESO</a>
+	<a href="enlacesmatematicas.html" class="btn">Enlaces</a>
+	<a href="humormates.html" class="btn">Humor</a>
+	<a href="videosmatematicas.html" class="btn">Vídeos</a>
 	<a href="http://www.wolframalpha.com" class="btn btn-wolfram"><span class="icon"></span>Wolfram Alpha</a>
       </section>
     </div>
@@ -31,9 +32,9 @@
 <!-- Creamos una nueva división -->
   <div class="container">
     <section id="main_content">
-      <h3> Matemáticas 4º ESO</h3>
-      	<a href="ejercicios4eso.html" class="btn-enlaces">Ejercicios</a></li>
-	<a href="documentos4eso.html" class="btn-enlaces">Documentos</a></li>
+      <h3> Matemáticas 3º ESO</h3>
+      	<a href="ejercicios3eso.html" class="btn-enlaces">Ejercicios</a></li>
+	<a href="documentos3eso.html" class="btn-enlaces">Documentos</a></li>      
   </div>
 
 

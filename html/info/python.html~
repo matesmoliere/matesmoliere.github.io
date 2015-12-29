@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet-info.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/stylesheet-info.css" media="screen">
     
     <title>Matemáticas &amp; Informática</title>
   </head>
@@ -12,17 +12,19 @@
   <body>
 	
   <header>
-<audio controls>
-  <source src="../audio/who.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+
 <!-- Con la etiqueta 'div' dividimos esta sección -->
     <div class="container">
       <h1></h1>
         
 
       <section id="downloads">
-        <a href="../index.html" class="btn"></span>Inicio</a>
+        <a href="../../index.html" class="btn">Inicio</a>
+	<a href="enlacesinformatica.html" class="btn">Enlaces</a>
+	<a href="ejerciciosinformatica.html" class="btn">Ejercicios</a>
+	<a href="documentosinformatica.html" class="btn">Documentos</a>
+	<a href="videosinfo.html" class="btn">Vídeos</a>
+	<a href="humorinformatica.html" class="btn">Humor</a>
       </section>
     </div>
   </header>
@@ -31,7 +33,7 @@ Your browser does not support the audio element.
   <div class="container">
     <section id="main_content">
       <h3>Python</h3>
-    	<img src="../images/Python3-powered_hello-world.png" alt="Python" align="center">
+    	<img src="../../images/Python3-powered_hello-world.png" alt="Python" align="center">
 	<style>
 	p.one {
     		font-size: 16px;
