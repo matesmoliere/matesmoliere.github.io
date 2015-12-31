@@ -1,0 +1,61 @@
+
+/*Definimos el formato del cuerpo de la página*/
+body {
+  margin: 20px;
+  padding: 20px;
+  background:#000000;
+  color: #eaeaea; /*Color de la fuente*/
+  font: 18px;
+  line-height: 1.2;
+  width: 94%;
+  text-align:justify;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+/* Definimos el aspecto de los encabezados*/
+h1 {
+  font-weight: bold;
+  
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #0001ff;
+  letter-spacing: 0.1em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+
+h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #b5e853;
+  font-size:18px;
+  letter-spacing: 0.1em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+/* Links
+   a, a:hover, a:visited
+*/
+
+a {
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+/* Clearfix */
+
+.cf:before, .cf:after {
+  content:"";
+  display:table;
+}
+
+.cf:after {
+  clear:both;
+}
+
+.cf {
+  zoom:1;
+}
