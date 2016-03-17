@@ -1,0 +1,56 @@
+Comandos para el Kturtle:
+
+Entre paréntesis la abreviatura del comando
+
+-reset : inicia desde el principio todo el programa
+
+-forward(fw): avanza la tortuga. fw 60 (avanza 60 pasos)
+
+-backward(bw): retrocede la tortuga. bw 45 (retrocede 45 pasos)
+
+-spritehide(sh): oculta la tortuga
+
+-turnright(tr): gira hacia la derecha la tortuga, un número de grados. tr 45 (gira 45º a la derecha)
+
+-turnleft(tl): gira hacia la izquierda la tortuga, un número de grados. tl 45 (gira 45º a la izquierda)
+
+-go: Lleva a la tortuga hacia un punto del lienzo, determinado por sus coordenadas x,y. go 30,60 (situa la tortuga en el punto de coordenadas 30,60)
+
+-penup(pu): levanta el lápiz para que no se dibuje ninguna línea
+
+-pendown(pd): baja el lápiz
+
+-pencolor(pc): determina el color del trazo en unidades R,G,B. pu 0,0,255 (el trazo será azul)
+
+-penwidth(pw): determina el grosor del lápiz. pw 2 (grosor 2)
+
+-canvassize: determina, en píxeles, las dimensiones (x e y) del lienzo. canvassize 300,400 (el lienzo será 300 píxeles de largo por 400 de alto)
+
+-direction(d): ajusta la dirección, en grados, del movimiento de la tortuga, independientemente de cómo haya quedado en su último movimiento. d 135 (la tortuga se dirigirá 135º)
+
+-repeat(repetir): nos sirve para repetir, un número determinado de veces, una serie de comandos. Su sintaxis es:
+
+	repeat numerodeveces {
+	comando 1
+	comando 2
+	.
+	.
+	.
+	comando n
+	}
+
+	Por ejemplo:
+
+	repeat 4 {
+	fw 50
+	tr 90
+	}
+
+
+---------------------------------------------------------------------------------------------'
+Es importante que comentemos dentro del programa lo que vamos haciendo. Para ello usamos la siguiente sintaxis:
+
+# Esto es un comentario (uso el símbolo almohadilla para ello)
+
+
+
