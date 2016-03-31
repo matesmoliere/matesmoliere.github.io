@@ -51,23 +51,6 @@ Entre paréntesis la abreviatura del comando
 Es importante que comentemos dentro del programa lo que vamos haciendo. Para ello usamos la siguiente sintaxis:
 
 # Esto es un comentario (uso el símbolo almohadilla para ello)
---------------------------------------------------------------------------------------------
-La tortuga, también, puede comparar cosas, por ejemplo:
 
-¿Es 3 mayor que 2?
-
-print (3 > 2) daría como resultado true (cierto). Por el contrario, print (3 < 2) daría
-como resultado false (falso)
-
-$nombre = "Enrique"
-
-print $nombre == "Enrique" daría como resultado true
-
-print $nombre == "enrique" daría como resultado false
-
-Fijémonmos en que hemos usado un doble signo 'igual'. Esto, lo que hace, es comparar lo 
-que contiene la variable, en este caso $nombre, con una cadena de texto; "Enrique" o 
-"enrique". La coincidencia dbe ser exacta, como vemos, el programa discrimina entre 
-mayúsculas y minúsculas.
 
 
