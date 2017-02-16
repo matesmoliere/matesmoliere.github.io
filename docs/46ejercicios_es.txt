@@ -1,0 +1,107 @@
+Ejercicios para Python
+
+Versión original de Torbjörn.
+
+--------------------------------------------------------------------------------------------------------
+Ejercicios básicos
+
+01. Define una función max() que tome dos números como argumentos y devuelva el mayor de ellos. Utiliza sentencias del tipo if-then-else.
+
+02. Define una función max_de_tres() que tome tres números como argumento y devuelva el mayor de ellos.
+
+03. Define una función que compute la longitud de una cadena de texto.
+
+04. Escribe una función que tome un carácter (i.e. una 'string' de longitud 1) y devuelva True si es una vocal, y False si no es así.
+
+05. Escribe una función traduce() que convierta un texto en algo que se llama "rövarspråket" (En sueco, el "lenguaje de los ladrones"). 
+Consiste en duplicar cada consonante y colocar en medio la letra "o". Por ejemplo:
+
+>>>traduce("estamos en el moliere")
+esostotamomosos enon elol momololierore
+
+06. Define una función suma() y otra producto() que sume y multiplique, respecticamente, todos los números de una lista. Por ejemplo:
+
+>>>suma([1, 2, 3, 4]) 
+10
+
+>>>producto([1, 2, 3, 4])
+24.
+
+07. Define una función revertir() que compute el reverso de una cadena de texto (string). Por ejemplo, revertir("colegio moliere") debería devolver "ereilom oigeloc".
+
+08. Define una función es_palindromo() que reconozca palíndromos (i.e. palabras que se leen igual de izquierda-derecha que de derecha-izquierda). 
+Por ejemplo:
+
+>>> es_palindromo("radar")
+True.
+
+09. Escribe una función pertenece() que lea un valor (ya sea un número, un carácter, etc.) x de una lista y devuelva True si x pertenece a la lista, en caso contrario devolverá False. Por ejemplo:
+
+>>>pertenece('er',['er','y','ui'])
+True
+
+>>>pertenece('fg',['er','y','ui'])
+False
+
+10. Define una función solapados() que lea dos listas y devuelva True si, al menos, tienen un miembro en común, en caso contrario False. 
+Puedes usar la función del ejercicio 09 pertence(), o el operador 'in'. Pero para este ejercicio deberías escribirla, también, usando dos bucles for anidados. Por ejemplo:
+
+>>>solapados(['a','b'],['l','z'])
+False
+
+>>>solapados(['a','b'],['k','b'])
+True
+
+
+11. Define una función genera_n_letras() que tome un número entero n, un carácter c, y devuelva el carácter c, n veces. Por ejemplo:
+
+>>>genera_n_letras(5,"x")
+xxxxx
+
+12.Define un procedimiento histograma() que tome una lista de números enteros e imprima un histograma por pantalla. Por ejemplo:
+
+>>>histogram([4, 9, 7])
+
+****
+*********
+*******
+
+13. La función max() del ejercicio 1) y la función max_de_tres() del ejercicio 2) sólo sirven para dos o tres números, respectivamente. 
+Pero supongamos que tenemos muchos más números, o que no sabemos a priori cuántos son. Escribe una función max_en_lista() que tome una lista de números y devuelva el mayor.
+
+14. Escribe un programa que convierta una lista de palabras, en otra lista con números que representen la longitud de las palabras correspondientes.
+
+15. Escribe una función encontrar_palabraLarga() que tome una lista de palabras y devuelva la longitud de la más larga. Por ejemplo:
+
+>>> encontrar_palabraLarga(['peso','tri','murcielago'])
+10
+
+>>> encontrar_palabraLarga(['peso','trivvvvvvvvv','murcielago'])
+12
+
+16. Escribe una función filtrar_palabraLarga() que tome una lista de palabras, un número entero n y devuelva la lista de palabras cuya longitud es mayor que n. Por ejemplo:
+
+>>> filtrar_palabra_larga(3,['hi','hier','hierro','hierros'])
+['hier', 'hierro', 'hierros']
+
+>>> filtrar_palabra_larga(4,['hi','hier','hierro','hierros'])
+['hierro', 'hierros']
+
+17. Escribe una versión del reconocedor de palíndromos (ej. 08) que también acepte frases palíndromas. Por ejemplo:
+
+>>> es_palindromo("Go hang a salami I'm a lasagna hog")
+True
+
+>>> es_palindromo("I roamed under it as a tired nude Maori")
+True
+
+>>> es_palindromo("Was it a rat I saw?")
+False
+
+Los signos de puntuación, las mayúsculas y los espacios son ignorados.
+
+18. Un pangrama o frase holoalfabética es un texto que usa todas las letras posibles del alfabeto de un idioma. Por ejemplo: "Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú"; "El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja". Debes crear una función que compruebe que una determinada oración es o no un pangrama.
+
+19."Un elefante se balanceba sobre la tela de una araña, como veían que resistía fueron a llamar a otro elefante..." 
+El verso se repite y cada vez aparece un nuevo elefante. La idea es llegar hasta los 99 elefantes y parar. Tu tarea consistirá en construir una función que genere todos los versos.
+
