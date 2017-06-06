@@ -1,4 +1,4 @@
-rad	temp	wind	ozone
+rad	temp	viento	ozono
 190	67	7.4	41
 118	72	8	36
 149	74	12.6	12

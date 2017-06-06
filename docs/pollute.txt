@@ -1,4 +1,4 @@
-Pollution	Temp	Industry	Population	Wind	Rain	Wet.days
+Polución	Temp	Industria	Población	Viento	Lluvia	Días.húmedos
 24	61.5	368	497	9.1	48.34	115
 30	55.6	291	593	8.3	43.11	123
 56	55.9	775	622	9.5	35.89	105
