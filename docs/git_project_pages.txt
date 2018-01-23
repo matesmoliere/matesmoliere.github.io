@@ -21,3 +21,13 @@ Para crear páginas web para un 'Project' en Github:
 
 	Your site is ready to be published at https://matesmoliere.github.io/informatica/
 	
+El proceso de actualización de nuestra página debe seguir los pasos del punto 4.
+Deberemos estar siempre dentro de la carpeta 'informatica'. Cuando hacemos
+git push, el sistema nos pide el nombre de usuario que tengamos en Github y 
+luego la password. Sólo entonces empezará el proceso de actualización.
+
+Si hiciéramos alguna modificación desde el navegador, luego deberemos actualizar
+lo que tenemos en nuestro PC. Para ello entramos en la carpeta 'informática' y
+ejecutamos: git pull
+
+
