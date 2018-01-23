@@ -1,0 +1,23 @@
+Para crear páginas web para un 'Project' en Github:
+
+1. Creamos un nuevo repositorio, por ejemplo: informatica
+
+2. Clonamos en nuestro PC el proyecto:
+
+	git clone https://github.com/matesmoliere/informatica.git
+
+3. cd informatica
+
+4. Creamos un archivo index.html nuevo, luego:
+
+	git add *
+	git commit -m "primer commit"
+	git push
+
+5. Desde la página web de Github nos vamos a Settings del proyecto, bajamos
+   a GitHub pages y en 'Source' seleccionamos 'master branch' y luego 'Save'
+
+6. Aparecerá:
+
+	Your site is ready to be published at https://matesmoliere.github.io/informatica/
+	
