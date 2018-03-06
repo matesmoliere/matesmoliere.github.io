@@ -26,7 +26,7 @@ Entre paréntesis la abreviatura del comando
 
 -canvassize: determina, en píxeles, las dimensiones (x e y) del lienzo. canvassize 300,400 (el lienzo será 300 píxeles de largo por 400 de alto)
 
--direction(d): ajusta la dirección, en grados, del movimiento de la tortuga, independientemente de cómo haya quedado en su último movimiento. d 135 (la tortuga se dirigirá 135º)
+-direction(dir): ajusta la dirección, en grados, del movimiento de la tortuga, independientemente de cómo haya quedado en su último movimiento. d 135 (la tortuga se dirigirá 135º)
 
 -repeat(repetir): nos sirve para repetir, un número determinado de veces, una serie de comandos. Su sintaxis es:
 
