@@ -1,5 +1,30 @@
 Para crear páginas web para un 'Project' en Github:
 
+INSTRUCIONES POR SI TENÉIS PROBLEMAS CON GITHUB EN WINDOWS:
+
+1. Crear el repositorio a través de la propia página web de Github
+2. Cuando lo creéis marcar que cree un archivo README.md (Initialize this repository with a README)
+3. Para poder crear las carpetas como 'html' y 'figuras', hacemos los siguiente:
+
+	a- Le damos a Create new file (Crear archivo nuevo)
+	b- Se abre un espacio para poner el nombre de ese archivo. Ésto lo 
+	  aprovechamos para crear las carpetas. Por ejemplo, si al repositorio
+	  lo hemos llamado 'miweb', aparecerá miweb/
+	  Escribiremos a continuación de la barra html/prueba.html, bajamos hasta
+	  donde pone 'Commit new file', y escribimos cualquier cosa, le damos a 
+	  'Commit new file' y ya nos habrá creado la carpeta html a donde podremos
+	  subir los archivos que tengamos en nuestro PC, usando Upload files.
+	c- No olvidar que vuestro archivo index.html deberá estar en el mismo 
+	  lugar que el archivo README.md que creásteis al principio
+	d- Para crear el resto de carpetas repetid el mismo procedimiento anterior.
+4. Cuando tengáis todo subido id a 'Settings', bajar hasta 'GitHub Pages' pinchar
+   en el botón que pone 'None' y elegid 'Master branch' -> Save. Aparecerá un enlace en 
+   esta sección que será lo que me enviaréis por correo
+5. Ya tenéis vuestra página web
+
+
+-------------------------------------------------------------------------------------------------
+
 1. Creamos un nuevo repositorio, por ejemplo: informatica
 
 2. Clonamos en nuestro PC el proyecto:
