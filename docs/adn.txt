@@ -1,0 +1,33 @@
+En un solo archivo incluir las 5 funciones siguientes.
+Observar el docstring y los ejemplos de su ejecución
+
+1. Primera
+obtener_longitud(adn)
+(str) -> int
+>>>obtener_longitud('ATCGAT')
+6
+
+2. Segunda
+es_mayor(cadena1, cadena2)
+(str, str) -> bool
+>>>es_mayor('ATCG', 'ATCGGA')
+False
+
+3. Tercera
+contar_nucleotidos(cadena, nucleotido)
+(str, str) -> int
+>>>contar_nucleotidos('ATCGGC', 'G')
+2
+
+4. Cuarta
+contiene_secuencia(cadena, secuencia)
+(str, str) -> bool
+>>>contiene_secuencia('ATCGGC', 'GG')
+True
+
+5. Quinta
+es_secuencia_valida(secuencia)
+(str) -> int
+>>>es_secuencia_valida('ATTGCWG')
+Hay 1 nucleótido erróneo
+
