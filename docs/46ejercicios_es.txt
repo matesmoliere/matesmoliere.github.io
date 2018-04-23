@@ -7,11 +7,25 @@ Ejercicios básicos
 
 01. Define una función max() que tome dos números como argumentos y devuelva el mayor de ellos. Utiliza sentencias del tipo if-then-else.
 
+>>>maximo(6,9)
+9
+
 02. Define una función max_de_tres() que tome tres números como argumento y devuelva el mayor de ellos.
+
+>>> maximo_de_tres(6,9,12)
+12 es el mayor
 
 03. Define una función que compute la longitud de una cadena de texto.
 
+>>> que_longitud('murciélago')
+10
+
 04. Escribe una función que tome un carácter (i.e. una 'string' de longitud 1) y devuelva True si es una vocal, y False si no es así.
+
+>>> es_vocal('6')
+No es vocal
+>>> es_vocal('e')
+Es vocal
 
 05. Escribe una función traduce() que convierta un texto en algo que se llama "rövarspråket" (En sueco, el "lenguaje de los ladrones"). 
 Consiste en duplicar cada consonante y colocar en medio la letra "o". Por ejemplo:
