@@ -15,7 +15,8 @@ Ejercicios básicos
 >>> maximo_de_tres(6,9,12)
 12 es el mayor
 
-03. Define una función que compute la longitud de una cadena de texto.
+03. Define una función que compute la longitud de una cadena de texto. No se puede usar
+la función 'len' de Python. Debes crear un procedimiento que lo haga
 
 >>> que_longitud('murciélago')
 10
