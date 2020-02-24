@@ -5,6 +5,7 @@ body {
   padding: 1px;
   background-image:url(../images/agujero-gusano.jpg);  
   /*background:#000011;*/
+  background-size: cover;
   color: #eaeaea; /*Color de la fuente*/
   font: 18px;
   line-height: 1.2;
