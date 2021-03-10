@@ -12,8 +12,5 @@ hacerlos, tanto con los iconos, como con una línea de texto.
 uno de ellos. Cada trozo del clip deberá aparecer y desvanecer progresivamente. Debes
 exportar el archivo en formato OggVorbis con el nombre: audio_examen
 
-3. Tienes un archivo de imagen a la que deberás aplicar un filtro GIMPresionista 
-Patchwork. Luego deberás añadirle un logotipo escarchado(frosty) que ponga 'Examen'.
-Lo debes exportar en formato PNG con el nombre: imagen_examen
 
 NO OLVIDES GUARDAR LOS ARCHIVOS QUE HAS CREADO EN LA CARPETA CON TU NOMBRE
