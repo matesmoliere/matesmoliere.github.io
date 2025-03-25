@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Ecuaciones Matemáticas</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Add meta tags for better SEO -->
+    <meta name="description" content="Generador de ecuaciones matemáticas de primer y segundo grado con soluciones paso a paso">
+    <meta name="keywords" content="matemáticas, ecuaciones, álgebra, educación, ecuaciones cuadráticas">
+    <!-- Add favicon -->
+    <link rel="icon" type="image/png" href="./favicon.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Ecuaciones Matemáticas</h1>
+        <div class="controls">
+            <div class="equation-type">
+                <label for="equationType">Tipo de Ecuación:</label>
+                <select id="equationType">
+                    <option value="first">Primer Grado (Lineal)</option>
+                    <option value="second">Segundo Grado (Cuadrática)</option>
+                </select>
+            </div>
+            <div class="difficulty">
+                <label for="difficultyRange">Rango de Coeficientes:</label>
+                <input type="range" id="difficultyRange" min="1" max="10" value="5">
+                <span id="difficultyValue">5</span>
+            </div>
+            <button id="generateBtn">Generar Ecuación</button>
+        </div>
+        <div class="equation-display">
+            <h2>Ecuación:</h2>
+            <div class="equation" id="equation">Haz clic en "Generar Ecuación" para comenzar</div>
+            <button id="showSolution">Mostrar Solución</button>
+            <div class="solution" id="solution"></div>
+        </div>
+        <footer>
+            <p>© 2024 MatesMoliere - <a href="https://matesmoliere.github.io">Volver al inicio</a></p>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html> 
